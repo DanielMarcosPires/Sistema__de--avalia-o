@@ -1,0 +1,27 @@
+.apresentando{
+    background: var(--DarkBlue);
+    border-top: solid 2px;
+    color: var(--White);
+    position: absolute;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+.apresentando__margem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    gap: 8px;
+    margin: 0 auto;
+    width: 80%;
+}
+@media screen and (max-width:500px) {
+    .apresentando__margem{
+        flex-direction: column;
+    }
+}
+.apresentando__margem a{
+    color: #001aff;
+    padding: 8px 0;
+}

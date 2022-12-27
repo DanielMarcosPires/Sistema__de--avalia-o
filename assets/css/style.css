@@ -5,7 +5,9 @@
 @import url('../style/card/content/style.css');
 @import url('../style/card/control/style.css');
 @import url('../style/card/confirm/style.css');
+@import url('../style/footer/style.css');
 *{
+   font-family: 'Overpass', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,6 +15,7 @@
     list-style: none;
 }
  body{
+   position: relative;
     background: var(--VeryDarkBlue);
     display: grid;
     grid-template: 
