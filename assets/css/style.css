@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+/* ---Fonts-- */
+
+@import url('../style/card/header/style.css');
+@import url('../style/card/content/style.css');
+@import url('../style/card/control/style.css');
+@import url('../style/card/confirm/style.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: none;
+    list-style: none;
+}
+ body{
+    background: var(--VeryDarkBlue);
+    display: grid;
+    grid-template: 
+    '.   .   .'
+    '. card  .'
+    '.   .   .';
+    flex-direction: column;
+    height: 100vh;
+ }
+ .margin{
+   text-align: center;
+    margin: 0 auto;
+    width: 90%;
+ }
+ button[type="button"]{
+    background: var(--White);
+    border: solid 2px transparent;
+    border-radius: 1.2em;
+    margin: 8px 0;
+    font-family: 'Overpass', sans-serif;
+    transition: 0.2s;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 1em;
+    outline: none;
+    width: 100%;
+ }
+ button[type="button"]:focus{
+    font-weight: bold;
+    border: solid 2px var(--Orange);
+    color: var(--Orange);
+ }
+ button[type="button"]:active{
+    transition: 0s;
+    background: var(--Orange);
+    color: var(--White);
+ }
+:root{
+    --White: #ffffff;
+    --LightGrey: #959eac;
+    --MediumGrey: #7c8798;
+    --DarkBlue: #252d37;
+    --VeryDarkBlue: #121417;
+    --Orange: hsl(25, 97%, 53%);
+}

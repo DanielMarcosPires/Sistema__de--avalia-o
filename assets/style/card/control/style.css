@@ -1,0 +1,27 @@
+.change__list{
+    display: flex;
+    margin: 8px 0;
+    justify-content: space-around;
+    width: 100%;
+}
+.change__item{
+    text-align: center;
+    display: inline;
+    user-select: none;
+    border-radius: 50%;
+    padding: 1em;
+    background:#7c879856;
+    width: 50px;
+    height: 50px;
+    transition: .2s;
+}
+.change__item:hover{
+    background: var(--Orange);
+    filter: opacity(.8);
+}
+.change__item--ativo{
+    background: var(--Orange);
+}
+.submit{
+    transition: .5s;
+}

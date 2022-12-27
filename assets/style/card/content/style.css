@@ -1,0 +1,11 @@
+.content{
+    color: var(--White);
+    font-family: 'Overpass', sans-serif;
+}
+.content__title{
+    font-size: 40px;
+    margin: 8px 0;
+}
+.content__text{
+    color: var(--LightGrey);
+}

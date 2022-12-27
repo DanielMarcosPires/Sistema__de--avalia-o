@@ -1,0 +1,29 @@
+.card{
+    border-radius: 30px;
+    display: flex;
+    grid-area: card;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    background:var(--DarkBlue);
+    color: var(--White);
+    margin: 0 auto;
+    width: 500px;
+}
+.header{
+    position: absolute;
+   
+    top: 0;
+    margin: 40px 0;
+}
+
+.header__icon{
+    background: #7c879856;
+    border-radius: 50%;
+    display: inline;
+    padding: 1em;
+    transition: 0.2s;
+}
+.header__icon:hover{
+    color: var(--Orange);
+}
