@@ -10,6 +10,11 @@
     margin: 0 auto;
     width: 500px;
 }
+@media screen and (max-width:500px) {
+    .card{
+        width: 350px;
+    }
+}
 .header{
     position: absolute;
    
